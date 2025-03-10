@@ -57,26 +57,21 @@ main {
 
 .regular-content{
     padding-top: 78px;
-    max-width: 401px;
+    max-width: 419px;
     margin: 0 auto;
 }
 
 .img-win{
-    max-width: 480px;
+    max-width: 312px;
     width: 100%;
-    margin: 0 auto;
+    margin: 100px auto;
     display: block;
 }
 .img-icon{
     margin: 0 auto;
     display: block;
 }
-.img-title{
-    max-width: 480px;
-    width: 100%;
-    margin: 0 auto;
-    display: block;
-}
+
 .btn{
     height: 64px;
     width: 100%;
@@ -85,24 +80,20 @@ main {
     transition: background-color 1s ease;
     cursor: pointer;
     border-radius: 12px;
-    background: #008FC7;
+    background: #D3774C;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     color: #FFF;
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 500;
-    line-height: 1;
-    letter-spacing: 0.25px;
+    line-height: normal;
     text-transform: uppercase;
     &.btn:hover{
-        background: #008FC7;
-    }
-
-    &.btn:focus{
-        background: #008FC7;
+        background: #F9A87C;
     }
     &.btn:active{
-        background: #008FC7;
+        background: #C2643E;
     }
 }
 
@@ -127,13 +118,15 @@ main {
     border: none;
     outline: none;
     margin-bottom: 12px;
-    color: #0057A5;
+    color: #C86A43;
+    font-family: "Futura New";
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0.2px;
     line-height: 1;
     -webkit-appearance: none;
+    padding: 0 35px;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -141,8 +134,9 @@ input::-webkit-inner-spin-button {
 }
 
 .input::placeholder{
-    color: #0057A5;
+    color: #C86A43;
     text-align: center;
+    font-family: "Futura New";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -151,16 +145,14 @@ input::-webkit-inner-spin-button {
 }
 
 .regular-title{
+    color: #FFF;
     text-align: center;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.45);
     font-size: 36px;
     font-style: normal;
     font-weight: 450;
-    line-height: normal;
+    line-height: 1; /* 44.444% */
     text-transform: uppercase;
-    background: linear-gradient(90deg, #89898A 3.11%, #FFF 51.9%, #89898A 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
     margin: 0;
 }
 
@@ -172,14 +164,11 @@ input::-webkit-inner-spin-button {
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.5px;
-     margin: 0 0 24px 0;
+    margin: 0 0 24px 0;
 }
 .link{
-    background: linear-gradient(92deg, #999 23.23%, #FFF 51.9%, #999 71.42%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 24px;
+    color: #FFF;
+    font-size: 25px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -191,26 +180,12 @@ input::-webkit-inner-spin-button {
     display: block;
     text-decoration: none;
     margin-top: 24px;
-    background: linear-gradient(89deg, #999 -15.32%, #FFF 34.25%, #999 67.99%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #FFF;
     font-size: 30px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.6px;
-    text-transform: lowercase;
-}
-.timer{
-    background: linear-gradient(90deg, #89898A 24.85%, #FFF 45.45%, #89898A 76.36%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: center;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 500;
     text-transform: lowercase;
 }
 
@@ -241,7 +216,7 @@ input::-webkit-inner-spin-button {
 @media (min-width: 480px) {
 
     .regular-text{
-        font-size: 22px;
+        font-size: 24px;
     }
     .input::placeholder{
         font-size: 20px;
