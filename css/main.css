@@ -22,7 +22,6 @@ body {
     min-width: 320px;
     margin: 0;
     min-height: 100vh;
-    background: #03428B;
 }
 html, body {
     height: 100%;
@@ -119,14 +118,12 @@ main {
     outline: none;
     margin-bottom: 12px;
     color: #C86A43;
-    font-family: "Futura New";
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0.2px;
     line-height: 1;
     -webkit-appearance: none;
-    padding: 0 35px;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -136,13 +133,13 @@ input::-webkit-inner-spin-button {
 .input::placeholder{
     color: #C86A43;
     text-align: center;
-    font-family: "Futura New";
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 1;
     letter-spacing: 0.2px;
 }
+
 
 .regular-title{
     color: #FFF;
